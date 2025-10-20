@@ -17,29 +17,15 @@ This tutorial covers essential time series concepts through interactive visualiz
 
 ### Installation
 
+
 1. Install dependencies using uv (recommended):
 
-```bash
-uv pip install -e .
+``` 
+uv sync # get your packages installed together
+
+uv run python -m ipykernel install --user --name=uv-env --display-name "ihatetimeseries"
 ```
 
-Or using pip:
-
-```bash
-pip install -e .
-```
-
-2. Launch Jupyter:
-
-```bash
-jupyter notebook intro-timeseries.ipynb
-```
-
-Or use Jupyter Lab:
-
-```bash
-jupyter lab intro-timeseries.ipynb
-```
 
 ## 📖 Key Concepts
 
